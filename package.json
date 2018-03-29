@@ -1,0 +1,16 @@
+{
+  "name": "release-ticket",
+  "version": "1.0.0",
+  "description": "Create a release ticket based on jira tickets from git logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.85.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
